@@ -16,6 +16,7 @@ $html .= '<table border="1" width="100%">
 $no = 1;
 while($row=mysqli_fetch_array($sql)){
 	$html .= "<tr>
+	<td>".$no."</td>
 	<td>".$row['nama']."</td>
 	<td>".$row['kelas']."</td>
 	<td>".$row['alamat']."</td>
